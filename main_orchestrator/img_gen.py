@@ -80,7 +80,7 @@ class ImageGenWidget(QWidget):
         bottom_layout = QHBoxLayout()
 
         self.query_input = QLineEdit()
-        self.query_input.setStyleSheet("border:2px solid green; color: white; border-radius:20px; padding: 10px; font-size:18px")
+        self.query_input.setStyleSheet("border:2px solid blue; color: white; border-radius:20px; padding: 10px; font-size:18px")
 
         self.execute_button = QPushButton()
         self.execute_button.setStyleSheet("border:2px solid green; border-radius:40px; padding: 10px;")
